@@ -1,26 +1,34 @@
-# Weather Dashboard (Day 4)
 
-A simple Python command-line tool that fetches current weather and a 3-day forecast for any city or location.
+---
 
-This project uses a public weather API (`wttr.in`) and demonstrates:
+## ✅ Day 4 — Weather Dashboard (API + JSON)  
+**Repo:** `Day-4-Weather-Dashboard`
 
-- Making HTTP requests with `requests`
-- Parsing JSON data
-- Handling errors and bad input
-- Building a user-friendly CLI loop
+```md
+# Weather Dashboard
+
+A Python application that retrieves real-time weather data using an external API and processes JSON responses to display readable weather information.
+
+---
 
 ## Features
+- Fetches live weather data
+- Processes API responses
+- Displays temperature and conditions
+- Handles user input errors gracefully
 
-- Ask the user for a city or location name
-- Show:
-  - Current conditions (description, temperature, feels-like, humidity)
-  - A simple 3-day forecast (min/avg/max temp + description)
-- Handles network errors and invalid locations gracefully
-- Type `q`, `quit`, or `exit` to leave the program
+---
+
+## Technologies Used
+- Python
+- API requests
+- JSON data handling
+- Command Line Interface (CLI)
+
+---
 
 ## How to Run
 
-1. Install dependencies:
-
+1. Clone the repository:
    ```bash
-   pip install requests
+   git clone https://github.com/SunshineKeys/day-four-weather-dashboard
